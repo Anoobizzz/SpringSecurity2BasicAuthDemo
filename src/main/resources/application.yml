@@ -1,1 +1,4 @@
 spring.security.user.password: P455W0RD
+management.endpoints.web.base-path: /
+management.endpoint.shutdown.enabled: true
+management.endpoints.web.exposure.include: shutdown
